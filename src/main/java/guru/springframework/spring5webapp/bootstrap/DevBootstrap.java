@@ -43,6 +43,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 		eric.getBooks().add(ddd);
 		ddd.getAuthors().add(eric);
 		
+		//Publisher
 		publisherRepository.save(hcPublisher);
 		authorRepository.save(eric);
 		bookRepository.save(ddd);
@@ -57,6 +58,7 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 		rod.getBooks().add(noEJB);
 		noEJB.getAuthors().add(rod);
 
+		//Publisher
 		publisherRepository.save(worxPublisher);
 		authorRepository.save(rod);
 		bookRepository.save(noEJB);
