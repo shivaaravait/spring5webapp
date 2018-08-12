@@ -62,6 +62,5 @@ public class DevBootstrap implements ApplicationListener<ContextRefreshedEvent> 
 		publisherRepository.save(worxPublisher);
 		authorRepository.save(rod);
 		bookRepository.save(noEJB);
-
 	}
 }
